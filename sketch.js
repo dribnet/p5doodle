@@ -1,4 +1,4 @@
-var speed = .0001;
+var speed = .00004;
 var n = 30; 
 var grid = [];
 
