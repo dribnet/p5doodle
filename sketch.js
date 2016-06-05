@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  var a = map(cos(millis() * speed * 10), -1, 1, 0, 255);
+  var a = map(cos(millis() * speed * 10), -1, 1, 20, 100);
   background(255, a);
   
   var control = [];
