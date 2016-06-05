@@ -18,7 +18,7 @@ function draw() {
   
   var control = [];
   var mouse_control = null;
-  for(var i = 0; i < 8; i++) {
+  for(var i = 0; i < 5; i++) {
     var x = width * noise(i*2 + 0, millis() * speed);
     var y = height * noise(i*2 + 1, millis() * speed);
     var v = createVector(x, y);
