@@ -21,6 +21,11 @@ function draw() {
     var x = width * noise(i*2 + 0, millis() * speed);
     var y = height * noise(i*2 + 1, millis() * speed);
     var v = createVector(x, y);
+    if(i == 0) {
+      x = mouseX;
+      y = mouseY;
+    }
+    var v = createVector(x, y);
     control.push(v);
     // ellipse(v.x, v.y, 10, 10); // draw centers
   }
