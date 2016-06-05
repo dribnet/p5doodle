@@ -57,11 +57,11 @@ function draw() {
     })
     if(total_mouse_push > 10) {
       fill(160,20,20, 220);
+      ellipse(vv.x, vv.y, 4, 4);
     }
     else {
       fill(112,128,132, 150);
+      ellipse(vv.x, vv.y, 2, 2);
     }
-
-    ellipse(vv.x, vv.y, 2, 2);
   });
 }
